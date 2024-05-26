@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Popins, sans-serif;
+}
+
+.content-layout {
+    margin-top: 60px;
+    padding-top: 60px;
+    margin-left: 64px;
+    margin-right: 63px;
+    background: #FFF;
+    box-shadow: 0px 0px 30.6px 3px rgba(0, 0, 0, 0.25);
+}
+
+.layout-profile {
+    margin-top: 60px;
+    margin-left: 64px;
+    margin-right: 63px;
+    background: #FFF;
+    box-shadow: 0px 0px 30.6px 3px rgba(0, 0, 0, 0.25);
+}
+
+.regis {
+    border: none;
+}
+
+.input-edit {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-auth {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 10px;
+    background: #6DA9E5;
+    color: #FFF;
+}
+
+.tidak-ghoib {
+    display: none;
+}
+
+.img-profil {
+    padding-top: 85px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.profile .heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.profile .title {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.profile .subtitle {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.profile .col-md-9 {
+    padding-top: 47px;
+    padding-left: 80px;
+}
+
+.token {
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .content-layout {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .profile .col-md-9 {
+        padding-left: 40px;
+    }
+
+    .token {
+        width: 80%;
+    }
+
+    .layout-profile {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .ghoib {
+        display: none;
+    }
+
+    .tidak-ghoib {
+        display: block;
+        margin-top: 20px;
+    }
+    .apply{
+        padding-right: 30px;
+    }
+}
+
+.colom {
+    position: relative;
+}
+
+.colom::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
